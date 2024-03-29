@@ -1,0 +1,11 @@
+const shoping_cart = ["Milk", "Coffee", "Tea", "Honey"];
+console.log(shoping_cart.length);
+shoping_cart.unshift("Meat");
+console.log(shoping_cart);
+shoping_cart.push("Sugar");
+console.log(shoping_cart);
+shoping_cart.splice(4);
+console.log(shoping_cart);
+shoping_cart.splice(3, "Green Tea");
+shoping_cart[3] = "green tea";
+console.log(shoping_cart);
